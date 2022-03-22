@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmail.WebAPI", "SendEmail.WebAPI\SendEmail.WebAPI.csproj", "{FA0BC852-437C-4C70-9303-630150760A73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0886A13C-C2F7-49CD-8A4B-2CB0B114BC2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7EFD7A25-4B93-47C1-9496-FBA85101C2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmail.Services", "SendEmail.Services\SendEmail.Services.csproj", "{6EEB274D-633A-45F6-BF17-48CA7C45FA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{76D63884-E80C-4C13-8C5D-E501AD36DA82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmail.Domain", "SendEmail.Domain\SendEmail.Domain.csproj", "{6DA6C962-7F00-459C-B39A-00846A94B027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0BC852-437C-4C70-9303-630150760A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0BC852-437C-4C70-9303-630150760A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0BC852-437C-4C70-9303-630150760A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0BC852-437C-4C70-9303-630150760A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEB274D-633A-45F6-BF17-48CA7C45FA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEB274D-633A-45F6-BF17-48CA7C45FA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEB274D-633A-45F6-BF17-48CA7C45FA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEB274D-633A-45F6-BF17-48CA7C45FA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA6C962-7F00-459C-B39A-00846A94B027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA6C962-7F00-459C-B39A-00846A94B027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA6C962-7F00-459C-B39A-00846A94B027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA6C962-7F00-459C-B39A-00846A94B027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA0BC852-437C-4C70-9303-630150760A73} = {0886A13C-C2F7-49CD-8A4B-2CB0B114BC2A}
+		{6EEB274D-633A-45F6-BF17-48CA7C45FA09} = {7EFD7A25-4B93-47C1-9496-FBA85101C2F8}
+		{6DA6C962-7F00-459C-B39A-00846A94B027} = {76D63884-E80C-4C13-8C5D-E501AD36DA82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D3E5195-8C48-42E9-8701-6B0FCCDE28C8}
+	EndGlobalSection
+EndGlobal
