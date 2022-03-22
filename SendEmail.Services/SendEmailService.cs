@@ -43,7 +43,6 @@ public class SendEmailService : ISendEmailService
         var message = new MimeMessage();
         message.From.Add(new MailboxAddress(_emailConfiguration.From));
         message.To.Add(new MailboxAddress(dto.ToEmail));
-        message.Cc.Add(new MailboxAddress("jeferson.job.2610@gmail.com"));
         message.Subject = dto.Subject;
         message.Body = new TextPart(TextFormat.Html)
         {
